@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "start": {
+            "date": "2022-07-31T01:33:29.567Z",
+            "airport": "VVD",
+            "city": "Владивосток"
+        },
+        "end": {
+            "date": "2022-08-11T03:23:29.567Z",
+            "airport": "TLV",
+            "city": "Тель-Авив"
+        },
+        "company": "TURKISH AIRLINES",
+        "transfers": 3,
+        "price": 10000
+    },
+    {
+        "id": 2,
+        "start": {
+            "date": "2022-08-01T01:33:29.567Z",
+            "airport": "VVD",
+            "city": "Владивосток"
+        },
+        "end": {
+            "date": "2022-08-02T06:23:29.567Z",
+            "airport": "TLV",
+            "city": "Тель-Авив"
+        },
+        "company": "TURKISH AIRLINES",
+        "transfers": 1,
+        "price": 12000
+    },
+    {
+        "id": 3,
+        "start": {
+            "date": "2022-08-03T02:22:29.567Z",
+            "airport": "VVD",
+            "city": "Владивосток"
+        },
+        "end": {
+            "date": "2022-08-04T05:55:29.567Z",
+            "airport": "TLV",
+            "city": "Тель-Авив"
+        },
+        "company": "TURKISH AIRLINES",
+        "transfers": 2,
+        "price": 100000
+    },
+    {
+        "id": 4,
+        "company": "BELAVIA",
+        "start": {
+            "date": "2022-08-05T02:22:29.567Z",
+            "airport": "MNK",
+            "city": "Минск"
+        },
+        "end": {
+            "date": "2022-08-05T07:55:29.567Z",
+            "airport": "MSK",
+            "city": "Москва"
+        },
+        "transfers": 0,
+        "price": 33330
+    }
+]
