@@ -16,7 +16,7 @@ function App() {
     );
 
     useEffect(() => {
-      fetch('/tickets.json').then(resp => resp.json()).then((data: Ticket[]) => setTickets(data))
+      fetch('/tickets.json').then(resp => resp.json()).then((data: Ticket[]) => setTickets(data.sort((a, b) => a.price - b.price)))
     } , [])
 
     const filteredTickets = tickets?.filter((item) => {
